@@ -1,0 +1,13 @@
+import numpy as np
+a= np.array([1,2,3])
+z= np.zeros([3])
+o=np.ones((2,3))
+r=np.arange(1,10,2)
+l=np.linspace(1,10,5)
+rd=np.random.randint(1,100,6)
+print(a)
+print(z)
+print(o)
+print(r)
+print(l)
+print(rd)

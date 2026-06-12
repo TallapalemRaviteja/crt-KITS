@@ -1,0 +1,11 @@
+import numpy as np
+zero=np.array([0])
+print(zero)
+print(type(zero))
+print("Dimension:",zero.ndim)
+print("Shape:",zero.nbytes)
+one=np.array([12,34,56])
+print(one)
+print(type(one))
+print("Dimension:",one.ndim)
+print("Memory :",one.nbytes)
